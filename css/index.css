@@ -1,0 +1,37 @@
+.gameConfig{
+    margin: 0px;
+    height: 100px;
+    width: 800px;
+    background-color: lightslategray;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 5px solid white;
+    margin: 0px;
+}
+.gameConfig>input{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+.buttonGame{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: 1.3em;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonGame:hover{
+    background-color: white;
+    color: darkgreen;
+}
+canvas{
+    cursor: pointer;
+}
+

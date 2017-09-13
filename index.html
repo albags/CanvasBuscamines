@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Buscaminas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--css-->
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <link href="js/frameworks/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet" type="text/css"/>        
+        
+        <!--frameworks-->
+        <script src="js/frameworks/jQuery/jquery-2.2.1.min.js" type="text/javascript"></script>        
+        <script src="js/frameworks/jquery-ui-1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/frameworks/angular/angular.min.js" type="text/javascript"></script>
+        <script src="js/frameworks/howlerJs/howler.min.js" type="text/javascript"></script>
+        
+        <!--control-->
+        <script src="js/index.js" type="text/javascript"></script>
+        
+        <!--model-->
+        <script src="js/model/Box.obj.js" type="text/javascript"></script>
+        <script src="js/model/Game.obj.js" type="text/javascript"></script>
+    </head>    
+    <body>     
+        <div class="gameConfig">
+            <br/>&nbsp;&nbsp;Numero de filas y columnas: <input type="number" id="numRows" placeholder="Min 4, max 25"/>
+            <button class="buttonGame" id="startButton">Start Game</button>
+            <button class="buttonGame" id="restartButton">Start Game</button>
+        </div>  
+        <canvas id="namePlayer" width="800" height="50">
+            This explorer does not support canvas
+        </canvas>
+        <canvas id="gameCanvas" width="800" height="800">      
+            This explorer does not support canvas
+        </canvas>
+        <div id="gameConfigPost"></div>
+    </body>
+</html>
